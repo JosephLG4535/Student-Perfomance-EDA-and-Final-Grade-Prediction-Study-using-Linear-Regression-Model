@@ -11,6 +11,8 @@ These steps helped identified and corrected a little on the predictions. However
 Therefore, in the EDA for feature study and visualization section, only median filled null 'FinalGrade' values were used. 
 In this section, the author performed a more targeted EDA and visualizations on the features for potential final grade outcome.
 
+
+
 ***Studies topics***
 1. How daily study hours and attendance rate affect student performance (two features in tandem on final grade).
 2. How parental support influence grade improvements / declination using (final grade vs previous grade).
