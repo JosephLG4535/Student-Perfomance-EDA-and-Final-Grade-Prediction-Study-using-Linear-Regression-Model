@@ -11,20 +11,20 @@ These steps helped identified and corrected a little on the predictions. However
 Therefore, in the EDA for feature study and visualization section, only median filled null 'FinalGrade' values were used. 
 In this section, the author performed a more targeted EDA and visualizations on the features for potential final grade outcome.
 
-<b>Studies topics</b>
+***Studies topics***
 1. How daily study hours and attendance rate affect student performance (two features in tandem on final grade).
 2. How parental support influence grade improvements / declination using (final grade vs previous grade).
 3. How online classes influence grade improvements / declination using (final grade vs previous grade).
 4. How extracurricular actvities affect highest performing and lowest performing students.
 5. Other general graphs (distribution of final grade by gender, distribution of final grade by study hours and attendance rate, consistency of features for students who scored A and not A).
 
-<b>Limitations of this Project</b>
+***Limitations of this Project***
 1. The model's predictions possibly did not have strong enough coefficients / features were weak / not large enough (near 900 records after cleaning).
 2. Intitial plan was to have model train from non-null values, and predict null final grades. However, since the evaluation metrics showed inappropriate results,
    and predictions ended with a small range, EDA was done on original final grade with median-filled NA values instead.
 3. The number of records for this dataset is limited to near 900 records after data cleaning and transformation. Therefore, the EDA results may not be as evident.
 
-<b>Lesson Learned from this Project</br>
+***Lesson Learned from this Project***
 1. Linear regression model predicts continuous scale feature like temperature, price, sales while logistic regression model predicts categorical feature like yes/no, fraud/not fraud.
 2. .agg() can be used to use multiple aggregation functions like sum, min and max together.
 3. .melt() can convert wide tabular formats to long format which then can be used for graphs.
