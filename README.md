@@ -18,7 +18,8 @@ In this section, the author performed a more targeted EDA and visualizations on 
 2. How parental support influence grade improvements / declination using (final grade vs previous grade).
 3. How online classes influence grade improvements / declination using (final grade vs previous grade).
 4. How extracurricular actvities affect highest performing and lowest performing students.
-5. Other general graphs (distribution of final grade by gender, distribution of final grade by study hours and attendance rate, consistency of features for students who scored A and not A).
+5. Other general graphs (distribution of final grade by gender, distribution of final grade by study hours and attendance rate,
+   consistency of features for students who scored A and not A -> bigger radialaxis means similarity in student behaviours.
 
 ***Limitations of this Project***
 1. The model's predictions possibly did not have strong enough coefficients / features were weak / not large enough (near 900 records after cleaning).
