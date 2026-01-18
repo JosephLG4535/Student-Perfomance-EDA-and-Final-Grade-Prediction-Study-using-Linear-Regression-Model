@@ -1,5 +1,6 @@
 This project is 100% done by the author to learn linear regression model workflow from creation to evaluation and adjustments and prediction. 
 This project revolves around a student performance datatset which can be obtained here : https://www.kaggle.com/datasets/haseebindata/student-performance-predictions
+
 In this project, data cleaning is done which involve checking on duplicated records, handling features with null values and standardization of values in some of the features.
 
 Then, linear regression and XGBoost model are used as base model for final grade prediction (numerical scor), in which later resulted in linear regression model selection due to result on RMSE,
