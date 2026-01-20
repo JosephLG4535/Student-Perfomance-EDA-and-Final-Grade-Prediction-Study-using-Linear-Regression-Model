@@ -1,4 +1,4 @@
-#Student Perfomance EDA and Final Grade Prediction Study using Linear Regression Model
+# Student Perfomance EDA and Final Grade Prediction Study using Linear Regression Model
 
 This project is 100% done by the author to learn linear regression model workflow from creation to evaluation and adjustments and prediction. 
 This project revolves around a student performance datatset which can be obtained here : https://www.kaggle.com/datasets/haseebindata/student-performance-predictions
