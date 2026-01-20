@@ -5,7 +5,7 @@ Kaggle link to see all processes in detail : https://www.kaggle.com/code/micro20
 
 In this project, data cleaning is done which involve checking on duplicated records, handling features with null values and standardization of values in some of the features.
 
-Then, linear regression and XGBoost model are used as base model for final grade prediction (numerical scor), in which later resulted in linear regression model selection due to result on RMSE,
+Then, linear regression and XGBoost model are used as base model for final grade prediction (numerical score), in which later resulted in linear regression model selection due to result on RMSE,
 MAE and MAPE. Subsequently, as the features provided weak signals for prediction and RMSE result showed near 9 (which is assumed bad for grade scoring),
 outlier tratement, log target 'y' feature, median fill null values on 'FinalGrade' target and feature interaction engineering were applied. 
 These steps helped identified and corrected a little on the predictions. However, the predictions were still around a small range between 78-81 likely due to weak predictors signal and coefficients.
