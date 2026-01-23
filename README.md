@@ -3,7 +3,7 @@
 This project is 100% done by the author to learn linear regression model workflow from creation to evaluation and adjustments and prediction. 
 This project revolves around a student performance datatset which can be obtained here : https://www.kaggle.com/datasets/haseebindata/student-performance-predictions
 
-Kaggle link to see all processes in detail : https://www.kaggle.com/code/micro20/student-performance-cleaning-eda-ml-study/notebook
+Kaggle link to see all processes in detail : [https://www.kaggle.com/code/micro20/student-performance-cleaning-eda-ml-study/notebook](https://www.kaggle.com/code/micro20/student-performance-cleaning-eda-ml-study)
 
 In this project, data cleaning is done which involve checking on duplicated records, handling features with null values and standardization of values in some of the features.
 
